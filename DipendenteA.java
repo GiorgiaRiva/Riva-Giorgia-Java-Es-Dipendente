@@ -1,9 +1,9 @@
-class MotorinoImm extends Motorino {
-      public MotorinoImm(String colore, String tipo, double velocità, boolean antifurto, double MaxVelocità, ) {
+class DipendenteA extends Dipendente{
+      public DipendenteA(String colore, String tipo, double velocità, boolean antifurto, double MaxVelocità, ) {
          super(colore, tipo, velocità, antifurto);
         this.MaxVelocità = MaxVelocità;
         this.targa = targa;
-    }
+}
    
     public void setTarga(String targa) {
         this.targa = targa;
@@ -16,4 +16,3 @@ class MotorinoImm extends Motorino {
         return 
 
     }
-}
